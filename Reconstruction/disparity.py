@@ -50,9 +50,9 @@ def downsample_image(imagen, reduce_factor):
 #=========================================================
 
 #cargando parametros de la camara
-ret = np.load('./camera_params/ret.npy')
-K = np.load('./camera_params/K.npy')
-dist = np.load('./camera_params/dist.npy')
+ret = np.load('../Calibration/camera_params/ret.npy')
+K = np.load('../Calibration/camera_params/K.npy')
+dist = np.load('../Calibration/camera_params/dist.npy')
 
 #especificando paths de imagenes
 img_path1 = './reconstruct_this/left2.jpg'
@@ -113,7 +113,7 @@ print ("\nGenerating the 3D map...")
 h,w = img_2_downsampled.shape[:2]
 
 #Load focal length. 
-focal_length = np.load('./camera_params/FocalLength.npy')
+focal_length = np.load('../Calibration/camera_params/FocalLength.npy')
 
 #Perspective transformation matrix
 #This transformation matrix is from the openCV documentation, didn't seem to work for me. 
