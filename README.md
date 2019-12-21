@@ -10,6 +10,8 @@ Carpeta contenedora del codigo principal, el cual adquiere los parametros de la 
 - Franco Chavez Ponce.
 - Jesus Lazo Quevedo.
 
+![GitHub Logo](/imagenes/1_reconstruido.png)
+
 # Repositorio:
 https://github.com/skdi/proyecto_grafica
 
