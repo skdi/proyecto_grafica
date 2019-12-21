@@ -102,28 +102,21 @@ stereo = cv2.StereoSGBM_create(minDisparity= min_disp,
 print ("\nComputing the disparity  map...")
 disparity_map = stereo.compute(img_1_downsampled, img_2_downsampled)
 
-#Show disparity map before generating 3D cloud to verify that point cloud will be usable. 
+#Muestre el mapa de disparidad antes de generar una nube 3D para verificar que la nube de puntos será utilizable. 
 plt.imshow(disparity_map,'gray')
 plt.show()
 
-#Generate  point cloud. 
+#Generamos la nube de puntos. 
 print ("\nGenerating the 3D map...")
 
-#Get new downsampled width and height 
+#Obtenga nuevo ancho y alto de muestreo reducido
 h,w = img_2_downsampled.shape[:2]
 
-#Load focal length. 
+#Longitud focal de carga. 
 focal_length = np.load('../Calibration/camera_params/FocalLength.npy')
 
-#Perspective transformation matrix
-#This transformation matrix is from the openCV documentation, didn't seem to work for me. 
-Q = np.float32([[1,0,0,-w/2.0],
-				[0,-1,0,h/2.0],
-				[0,0,0,-focal_length],
-				[0,0,1,0]])
 
-#This transformation matrix is derived from Prof. Didier Stricker's power point presentation on computer vision. 
-#Link : https://ags.cs.uni-kl.de/fileadmin/inf_ags/3dcv-ws14-15/3DCV_lec01_camera.pdf
+#Esta matriz de transformación se deriva de la presentación de Power Point del profesor Didier Stricker sobre la visión por computadora.
 Q2 = np.float32([[1,0,0,0],
 				[0,-1,0,0],
 				[0,0,focal_length*0.05,0], #Focal length multiplication obtained experimentally. 
