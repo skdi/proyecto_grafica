@@ -26,11 +26,11 @@ Para obtener los datos de objetivo, se tomaron dos fotos para encontrar la dimen
 
 ![Figura 1](/imagenes/1_reconstruido.png)
 
-![Figura 2](/imagenes/Captura de pantalla de 2019-12-20 16-07-59.png)
+![Figura 2](/imagenes/c1.png)
 
-![Figura 3](/imagenes/Captura de pantalla de 2019-12-20 16-09-15.png)
+![Figura 3](/imagenes/c2.png)
 
-![Figura 4](/imagenes/Captura de pantalla de 2019-12-20 16-10-07.png)
+![Figura 4](/imagenes/c3.png)
 
 # Repositorio:
 https://github.com/skdi/proyecto_grafica
