@@ -5,3 +5,8 @@
 - Nicolas Jimenez Artica.
 - Franco Chavez Ponce.
 - Jesus Lazo Quevedo.
+
+# Repositorio:
+https://github.com/skdi/proyecto_grafica
+
+# Video:
