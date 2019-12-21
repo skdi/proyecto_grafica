@@ -14,3 +14,4 @@ Carpeta contenedora del codigo principal, el cual adquiere los parametros de la 
 https://github.com/skdi/proyecto_grafica
 
 # Video:
+https://drive.google.com/drive/folders/1-TctCnj9BZu8FpPXR18isVsjHyM2Or8a
