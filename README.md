@@ -12,11 +12,11 @@ Carpeta contenedora del codigo principal, el cual adquiere los parametros de la 
 
 ![Figura 1](/imagenes/1_reconstruido.png)
 
-![Figura 2](/imagenes/c1)
+![Figura 2](/imagenes/c1.png)
 
-![Figura 3](/imagenes/c2)
+![Figura 3](/imagenes/c2.png)
 
-![Figura 4](/imagenes/c3)
+![Figura 4](/imagenes/c3.png)
 
 # Repositorio:
 https://github.com/skdi/proyecto_grafica
