@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sadrac/merge/merge.cpp" "/home/sadrac/merge/build/CMakeFiles/pcd_merge.dir/merge.cpp.o"
+  "/home/sadrac/proyecto_grafica/merge/merge.cpp" "/home/sadrac/proyecto_grafica/merge/build/CMakeFiles/pcd_merge.dir/merge.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

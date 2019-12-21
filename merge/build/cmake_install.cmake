@@ -1,4 +1,4 @@
-# Install script for directory: /home/sadrac/merge
+# Install script for directory: /home/sadrac/proyecto_grafica/merge
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sadrac/merge/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sadrac/proyecto_grafica/merge/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

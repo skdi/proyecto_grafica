@@ -53,3 +53,58 @@ Makefile:126: recipe for target 'cmTC_7cd78/fast' failed
 make: *** [cmTC_7cd78/fast] Error 2
 
 
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/sadrac/proyecto_grafica/merge/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c006/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c006.dir/build.make CMakeFiles/cmTC_7c006.dir/build
+make[1]: se entra en el directorio '/home/sadrac/proyecto_grafica/merge/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c006.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7c006.dir/CheckSymbolExists.c.o   -c /home/sadrac/proyecto_grafica/merge/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7c006
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c006.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7c006.dir/CheckSymbolExists.c.o  -o cmTC_7c006 
+CMakeFiles/cmTC_7c006.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7c006.dir/build.make:97: recipe for target 'cmTC_7c006' failed
+make[1]: *** [cmTC_7c006] Error 1
+make[1]: se sale del directorio '/home/sadrac/proyecto_grafica/merge/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7c006/fast' failed
+make: *** [cmTC_7c006/fast] Error 2
+
+File /home/sadrac/proyecto_grafica/merge/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/sadrac/proyecto_grafica/merge/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18feb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18feb.dir/build.make CMakeFiles/cmTC_18feb.dir/build
+make[1]: se entra en el directorio '/home/sadrac/proyecto_grafica/merge/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18feb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_18feb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_18feb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18feb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_18feb.dir/CheckFunctionExists.c.o  -o cmTC_18feb -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_18feb.dir/build.make:97: recipe for target 'cmTC_18feb' failed
+make[1]: *** [cmTC_18feb] Error 1
+make[1]: se sale del directorio '/home/sadrac/proyecto_grafica/merge/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_18feb/fast' failed
+make: *** [cmTC_18feb/fast] Error 2
+
+
