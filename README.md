@@ -12,7 +12,7 @@ Carpeta contenedora del codigo principal, el cual adquiere los parametros de la 
 
 Para tomar las fotos al objetivo se imito la vision binocular humana:
 
-![Estereocopica](/imagenes/estero.png)
+![Estereo](/imagenes/estereo.png)
 
 Para obtener los datos de objetivo, se tomaron dos fotos para encontrar la dimension de profundidad y proyectar la imagen:
 
