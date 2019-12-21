@@ -1,4 +1,4 @@
-# 3DReconstruction
+# Reconstrucción 3D
 
 # Integrantes:
 - André Mogrovejo Martínez.
