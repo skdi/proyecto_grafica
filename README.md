@@ -9,7 +9,7 @@ Carpeta contenedora del codigo principal, el cual adquiere los parametros de la 
 - Nicolas Jimenez Artica.
 - Franco Chavez Ponce.
 - Jesus Lazo Quevedo.
-
+# Capturas
 ![Figura 1](/imagenes/1_reconstruido.png)
 
 ![Figura 2](/imagenes/c1.png)
