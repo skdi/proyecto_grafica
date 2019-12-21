@@ -23,7 +23,7 @@ Para obtener los datos de objetivo, se tomaron dos fotos para encontrar la dimen
 - Nicolas Jimenez Artica.
 - Franco Chavez Ponce.
 - Jesus Lazo Quevedo.
-
+# Capturas:
 ![Figura 1](/imagenes/1_reconstruido.png)
 
 ![Figura 2](/imagenes/c1.png)
